@@ -1,7 +1,7 @@
 body {
-  font-family: Quicksand Roboto;
+  font: Quicksand Roboto;
   font-size: 12px;
-  color: #424242;
+  color: #2d3c49;
 }
 
 section {
@@ -10,6 +10,13 @@ section {
 
 ul {
   list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #2d3c49;
 }
 
 /*
@@ -89,14 +96,14 @@ header {
 
 .work__projects__item {
     display: inline-block;
-    width: 30%;
+    width: 33%;
     text-align: center;
   }
 
-  .work__projects__item__img {
-      width: 100px;
-      height: auto;
-    }
+.work__projects__item__img {
+    width: 100%;
+    height: auto;
+  }
 
 .project__title {
   display: block;
