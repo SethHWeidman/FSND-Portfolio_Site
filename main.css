@@ -4,6 +4,13 @@ body {
   color: #424242;
 }
 
+section {
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
 
 /*
  *
@@ -46,8 +53,7 @@ header {
  *
  */
 
-section {
-  width: 100%;
+.image {
   margin-top: 20px;
   margin-bottom: 30px;
 }
@@ -61,6 +67,41 @@ section {
 
  /*
   *
-  * Main Image
+  * Work section
   *
   */
+
+  .work {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .work__title {
+    float: left;
+    margin-bottom: 5px;
+    font-size: 1.8em;
+  }
+
+.work__projects {
+    width: 100%;
+    clear: left;
+}
+
+.work__projects__item {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+  }
+
+  .work__projects__item__img {
+      width: 100px;
+      height: auto;
+    }
+
+.project__title {
+  display: block;
+}
+
+.project__url {
+  display: block;
+}
