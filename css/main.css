@@ -28,7 +28,6 @@ a {
 header {
   width: 100%;
   min-height: 70px;
-  padding: 5px;
   border: 5px;
   border-bottom: 2px solid #7d97ad;
 }
@@ -92,12 +91,15 @@ header {
 .work__projects {
     width: 100%;
     clear: left;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .work__projects__item {
-    display: inline-block;
-    width: 33%;
+    width: 200px;
     text-align: center;
+    margin-right: 5px;
+    flex-grow: 1;
   }
 
 .work__projects__item__img {
@@ -106,9 +108,10 @@ header {
   }
 
 .project__title {
-  display: block;
+  text-align: center;
 }
 
 .project__url {
-  display: block;
+  width: 150px;
+  text-align: center;
 }
